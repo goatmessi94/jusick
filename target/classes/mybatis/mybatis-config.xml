@@ -5,7 +5,7 @@
  
 <configuration>
 <!-- 자신이 만든 VO 경로에 맞춰 alias 네이밍 규칙을 지어 생성 -->
-      <typeAliases>
- 	  </typeAliases>
-
+	<typeAliases>
+      <typeAlias alias="JuMemberVo" type="com.app.jusick.user.VO.JuMemberVO"></typeAlias>
+	</typeAliases>
 </configuration>
